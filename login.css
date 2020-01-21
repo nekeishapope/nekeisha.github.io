@@ -1,0 +1,95 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+body{width: 100%; height: auto; background-color: rgb(255, 255, 255);}
+
+/* Header */
+
+header > img{display: inline-block;}
+header > a{text-decoration: none; padding: 16px; display: inline;}
+.header-nav > a{
+    
+    position: relative;
+    top: -55px ; 
+    color: black;
+    left: 520px;
+    font-size: 20px;
+}
+
+#nav-search{ position: relative; left: -20px; float: right; margin-top: 40px; font-size: 20px;}
+
+
+  main > div {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       height: 500px;
+     background-color: rgb(249, 249, 249);
+     margin-top: 0;
+     margin: 200px;
+  }
+  main > div{
+    text-align: left ;
+   
+  }
+ .user-pass-header{
+     margin-top: -50px;
+     padding: 30px;
+     margin-right: -10px;
+ }
+  .right-info-container{
+      padding: 40px;
+      background-color: rgb(238, 232, 232);
+      text-align: center;
+      padding-top:160px;
+      font-size: 20px;
+      
+  }
+  .right-info-container .input-space{
+      height: 30px;
+      width: 190px;
+      border-radius: 2px;
+  }
+  .right-info-container .login-btn{
+      padding: 20px;
+      width: 140px;
+      font-size: 20px;
+      border-radius: 40px;
+      margin: 20px;
+      background: linear-gradient( rgb(158, 208, 158), white);
+  }
+  .left-info-container{
+    padding: 40px;
+    background-color: rgb(101, 233, 187);
+    text-align: center;
+    padding-top:190px;
+    font-size: 20px;
+}
+  /* Footer */
+  .grey-box{
+     padding: 80px 200px;
+      background-color: rgb(138, 138, 138);
+    
+  }
+  #box{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+   
+   height: 200px;
+  }
+  .blue-box{
+      background-color: rgb(0, 179, 255);
+      
+         padding: 80px 200px;
+  }
+  
+  /* FOOTER*/
+  footer{
+      background-color: black;
+  
+      color: white;
+      text-align: center;
+      padding: 40px;
+  
+      
+  }
+  #copy-right{float: left; font-size: 20px;}
+  #social-media-icon > a {padding: 20px; color: white;}
+
